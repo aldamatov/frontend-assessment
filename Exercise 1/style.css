@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    font-family:sans-serif;
+}
+.card-width{
+    width: 19rem;
+}
+p{
+    font-weight: 500;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+    padding: 20px;
+}
+.h1-header{
+   
+    font-weight: 700;
+    color: #fff;
+    font-size: 55px ;
+
+}
+.jumbotron{
+    height: 50vh;
+    opacity: 0.9;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url('https://via.placeholder.com/1920x650');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.hero-section p{
+    color: white;
+    font-size: 30px;
+}
+.card{
+    height: 100% !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.btn{ 
+    border: 3px solid black !important;
+    border-radius: 30px  !important;
+    text-transform: uppercase ;
+    font-weight: 700 !important;
+    width: fit-content;
+    text-align: center !important ;
+    justify-content: center;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .jumbotron{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url('https://via.placeholder.com/600x600');
+    }
+
+    .container{
+        margin: auto;
+    }
+    .card-margin{
+        margin-top: 10px !important;
+    }
+}

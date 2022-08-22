@@ -45,3 +45,6 @@ Read the `data.json` file and display the data as tabs on desktop and an accordi
 * Improve the user experience with meaningful animations/transitions.
 * Design and styling.
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+
+
+
